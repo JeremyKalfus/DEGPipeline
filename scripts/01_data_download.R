@@ -39,21 +39,4 @@ extract_metadata <- function(gse, output_file) {
     return(metadata)
 }
 
-#' Search for RNA-seq datasets in GEO
-#' 
-#' @param search_terms Search terms (default: "RNA-seq")
-#' @return Information about searching GEO
-search_datasets <- function(search_terms = "RNA-seq") {
-    cat("Searching GEO for:", search_terms, "\n")
-    cat("Note: Manual search recommended at https://www.ncbi.nlm.nih.gov/geo/\n")
-    cat("Look for datasets with:\n")
-    cat("  - RNA-seq data type\n")
-    cat("  - Appropriate sample types for your analysis\n")
-    cat("  - Disease vs control comparisons\n")
-    cat("\nExample search queries:\n")
-    cat("  - 'Parkinson[Title] AND blood[Title] AND RNA-seq[Study Type]'\n")
-    cat("  - 'disease[Title] AND RNA-seq[Study Type]'\n")
-    cat("  - Use GEO advanced search for more options\n")
-}
-
 cat("\n=== Data Download Script Complete ===\n")
