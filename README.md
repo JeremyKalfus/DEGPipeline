@@ -1,4 +1,4 @@
-# ParkinsonsDEGs
+# DEG Pipeline
 
 ## Overview
 
